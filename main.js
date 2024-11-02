@@ -22,6 +22,9 @@ orderList.appendChild(listItem);
 });
 } catch (error) {
 console.error('Error:', error.message);
+} finally {
+//Task4:Use finally to Ensure Cleanup
+console.log('Hide result')
 }
 }
 displayTicket(1)
